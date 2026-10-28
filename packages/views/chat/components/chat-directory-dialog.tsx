@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useMutation, useQuery } from "@tanstack/react-query";
-import { ArrowUp, Folder, Loader2 } from "lucide-react";
+import { ArrowUp, Folder, Loader2 } from "@multica/ui/icons";
 import { api } from "@multica/core/api";
 import { runtimeDirectoryRequestOptions } from "@multica/core/runtimes/queries";
 import type { ChatWorkingDirectory } from "@multica/core/types";
